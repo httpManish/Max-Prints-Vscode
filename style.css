@@ -1,0 +1,424 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    /* padding: ; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.nav-info {
+    display: flex;
+    gap: 16px;
+}
+
+.soical {
+    display: flex;
+    gap: 20px;
+}
+
+.soical i :hover {
+    color: #f65aa7;
+}
+
+.nav-main {
+    display: flex;
+    gap: 175px;
+    justify-content: flex-start;
+    padding: 75px 0px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    padding: 0px 10px 0px 0px;
+}
+
+.max {
+    color: #9fd7ef;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.print-shop {
+    color: #ef59a1;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.mob-nav ul {
+    display: grid;
+}
+
+/* SLIDER */
+
+.main-slider {
+    background-color: #777777;
+}
+
+.slider {
+    padding: 250px 0px 300px 0px;
+    text-align: center;
+}
+
+.slider-paragraph {
+    padding: 60px 200px;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.abt {
+    margin-right: 20p;
+    background-color: #9fd7ef;
+    border-radius: 10px;
+    padding: 20px 45px;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.orwrk {
+    background-color: #ef59a1;
+    border-radius: 10px;
+    padding: 20px 45px;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slider-title {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.second {
+    color: #9fd7ef;
+}
+
+.buss-card {
+    color: #f65aa7;
+}
+
+
+/* BEST WORK */
+.main-best-work {
+    text-align: center;
+}
+
+.best-work {
+    margin: 100px 0px 0px 0px;
+}
+
+.arrow1 {
+    padding: 25px 0px;
+}
+
+.work-cards,
+.pcards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wcard1,
+.wcard2,
+.wcard3,
+.wcard4 {
+    height: 400px;
+    width: 300px;
+}
+
+.wcard2 img {
+    background-color: #ef59a1;
+}
+
+.wcard1 img,
+.wcard2 img,
+.wcard3 img,
+.wcard4 img {
+    padding: 10px;
+    border: 1px #000000 dotted;
+    border-radius: 50%;
+}
+
+.wcard1 h4,
+.wcard2 h4,
+.wcard3 h4,
+.wcard4 h4 {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wcard1 p,
+.wcard2 p,
+.wcard3 p,
+.wcard4 p {
+    width: 245px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wcard1 a,
+.wcard2 a,
+.wcard3 a,
+.wcard4 a {
+    background-color: #9fd7ef;
+}
+
+/* promotion */
+
+
+.main-promotion {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.promotions-title h1 {
+    padding: 200px 0px 30px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.promotions-title img {
+    padding-bottom: 30px;
+}
+
+.pcards {
+    gap: 30px;
+}
+
+
+.pcard1,
+.pcard2,
+.pcard3,
+.pcard4 {
+    padding: 0px 0px 200px 0px;
+}
+
+.price {
+    color: #ef59a1;
+}
+
+@media only screen and (min-width: 320px) {
+    .navbar {
+        display: none;
+    }
+
+    .mob-nav ul {
+        display: none;
+    }
+
+    .mob-nav ul li {
+        list-style: none;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 10px 6px 6px;
+
+    }
+
+    .mob-nav li a {
+        color: #000;
+    }
+
+    .mob-nav ul li:hover {
+        background-color: palevioletred;
+    }
+
+    .work-cards,
+    .pcards {
+        display: grid;
+        justify-content: center;
+    }
+
+    .slider-paragraph {
+        padding: 0px;
+    }
+
+    .mob-nav-main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .nav-icon {
+        display: flex;
+    }
+
+    .slider {
+        padding: 50px 0px;
+    }
+
+    .slider-title {
+        font-size: 11px;
+    }
+
+    .slider-title h1 {
+        font-size: 17px;
+    }
+
+    .slider-paragraph p {
+        font-size: 12px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .abt {
+        padding: 0px 17px;
+    }
+
+    .orwrk {
+        padding: 0px 17px;
+    }
+
+    .wcard1,
+    .wcard2,
+    .wcard3,
+    .wcard4 {
+        height: 200px
+    }
+
+    .wcard1 p,
+    .wcard2 p,
+    .wcard3 p,
+    .wcard4 p {
+        width: 300px;
+    }
+
+    .promotions-title h1 {
+        padding: 50px 0px 30px 0px;
+    }
+
+    .pcard1,
+    .pcard2,
+    .pcard3,
+    .pcard4 {
+        padding: 0px 0px 100px 0px;
+    }
+}
+
+@media only screen and (min-width: 345px) {
+    .slider-title h1 {
+        font-size: 21px;
+    }
+
+
+    .slider-paragraph p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .slider-title h1 {
+        font-size: 20px;
+    }
+
+    .slider-paragraph p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-title h1 {
+        font-size: 29px;
+    }
+
+    .slider-paragraph p {
+        font-size: 20px;
+    }
+
+    .abt,
+    .orwrk {
+        padding: 10px 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        display: flex;
+    }
+
+    .nav-main {
+        padding: 0px;
+    }
+
+
+
+    .mob-navbar,
+    .mob-nav {
+        display: none;
+    }
+
+    .slider {
+        padding: 150px 0px;
+    }
+
+    .slider-paragraph p {
+        font-size: 29px;
+    }
+
+    .work-cards,
+    .pcards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wcard1 p,
+    .wcard2 p,
+    .wcard3 p,
+    .wcard4 p {
+        width: 245px;
+    }
+
+    .slider-paragraph p {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .pcards img {
+        width: 100%;
+    }
+
+    .pcard1,
+    .pcard2,
+    .pcard3,
+    .pcard4 {
+        padding: 0px 0px 200px 0px;
+        /* width: 25%; */
+    }
+}
